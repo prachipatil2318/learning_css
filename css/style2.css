@@ -1,0 +1,20 @@
+#headings{
+    color:rebeccapurple;
+    font-size: 50px;
+}
+
+.heading-color1{
+    color:rgb(235, 99, 99);
+    
+}
+.heading-color2{
+    color:rgb(99, 235, 99);
+}
+
+.heading-color3{
+    color:rgb(49, 155, 220);
+    
+}
+.heading-color4{
+    color:peru;
+}
