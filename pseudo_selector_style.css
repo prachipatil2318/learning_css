@@ -1,0 +1,54 @@
+*{
+    padding: 10px;
+}
+.heading_1{
+    color: goldenrod;
+    font-family: cursive;
+    border: 2px solid black;
+    display: inline;
+    padding: 10px;
+}
+.heading_1:hover{
+    color: green;
+    border-radius: 30px;
+    background-color: plum;
+}
+h2{
+    display: inline;
+
+}
+h2:hover{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+a:visited{
+    color: darkgreen;
+}
+input{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+input:focus{
+    border: 2px double lightcoral;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+}
+p::first-letter{
+    font-size: 40px;
+    font-weight: 800;
+    color: darkslateblue;
+}
+p::first-line{
+    color: darkred;
+}
+p::selection{
+    background-color: chartreuse;
+    color: brown;
+}
