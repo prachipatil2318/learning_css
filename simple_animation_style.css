@@ -1,0 +1,44 @@
+.div1{
+    margin: 20PX;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    animation: movingcircle1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: normal;
+}
+@keyframes movingcircle1 {
+    0%{background-color: rgb(68, 3, 68);top: 0px; left: 0px;}
+    25%{background-color: rgb(169, 57, 249);top: 0px; left: 200px;}
+    50%{background-color: rgb(4, 4, 129);top: 200px; left: 200px;}
+    75%{background-color: rgb(4, 78, 4);top: 200px; left: 0px;}
+    100%{background-color: rgb(116, 116, 0);top: 0px; left: 0px;}
+}
+
+.div2{
+    /* background-image: url("images/boy.png");*/
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 50%;
+    animation: movingcircle2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: normal;
+    box-shadow: 6px 7px 6px gray;
+
+}
+@keyframes movingcircle2 {
+    0%{background-image: url("images/bg_img.jpg");}
+    25%{background-image: url("images/Daglushet_ganpati_1.jpg");}
+    50%{background-image: url("images/panda.png");}
+    75%{background-image: url("images/bg_img.jpg");}
+    100%{background-image: url("images/boy.png");}
+}
